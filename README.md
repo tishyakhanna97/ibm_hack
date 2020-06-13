@@ -20,6 +20,8 @@ We at LiveIntel believe that the best way for us to support our firefighters is 
 StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
 
 ## Architecture 
+
+image::.architecture/Slide1.jpeg
  1. The sensors attached to the firefighters in the heat of battle transmit the relevant information (images, recorded speech, temperature and humidity readings) to the IBM Cloud server.
  
  2. Visual recognition on the images allows us to plot the highlighted areas on our blueprint using MazeMap
