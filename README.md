@@ -33,7 +33,7 @@ We at LiveIntel believe that the best way for us to support our firefighters is 
 
 
 ## Long Description
-[Read more here](https://www.nccs.gov.sg/singapores-climate-action/impact-of-climate-change-in-singapore/)
+[Read more here](https://github.com/tishyakhanna97/ibm_hack/blob/master/long.md)
 
 ## Roadmap
 
