@@ -1,0 +1,1 @@
+[{"id":"874578fa.480b78","type":"ui_text","z":"23d6d524.cd0b3a","d":true,"group":"","order":5,"width":0,"height":0,"name":"","label":"Anger:","format":"{{msg.features.emotion.document.emotion.anger}}","layout":"row-left","x":1110,"y":360,"wires":[]}]
