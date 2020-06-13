@@ -13,9 +13,8 @@
 </head>
 <body>
     <div id="map" class="mazemap"></div>
-    
-    <script>
 
+    <script>
         var map = new Mazemap.Map({
             // container id specified in the HTML
             container: 'map',
@@ -23,15 +22,104 @@
             campuses: 121,
 
             // initial position in lngLat format
-            center: {lng: 13.270286316716465, lat: 52.502217640505705},
+            center: {lng: 13.270992131085734, lat: 52.50155907759614},
 
             // initial zoom
-            zoom: 18,
+            zoom: 18.5,
 
-            zLevel: 3
+            zLevel: 1
         });
 
         // Add zoom and rotation controls to the map.
         map.addControl(new Mazemap.mapboxgl.NavigationControl());
+
+        map.on('load', function(){
+          var lngLat1 = {lng: 13.271761729950015, lat: 52.501515253635404};
+          var blueDot = new Mazemap.BlueDot( {
+              zLevel: 1,
+              accuracyCircle: false
+          } ).setLngLat(lngLat1).setAccuracy(10).addTo(map);
+
+          // FOR THE RED-DOT CLICK FUNCTION
+          /*map.on('click', (event) => {
+
+              var lngLat = event.lngLat;
+              var level = map.zLevel;
+
+              var marker = new Mazemap.MazeMarker( {
+                  shape: 'circle',
+                  color: 'Red',
+                  size: 20,
+                  zLevel: level // The floor zLevel coordinate is given here
+              } )
+              .setLngLat( lngLat ) // Set the LngLat coordinates here
+              .addTo(map); // Now add to the map
+              console.log(lngLat);
+          })*/
+
+          var turn = 0
+          var fire;
+          // Helper function
+          function animateDot(long, lati, walkSpeed) {
+            var lngLat2 = {lng: long, lat: lati};
+            blueDot.setLngLat(lngLat2, {animate: true, duration: walkSpeed});
+            return;
+          }
+
+          window.addEventListener('keydown', (event) => {
+            if (event.key == 'Enter') {
+              var walkSpeed = 800;
+              if (turn == 0){
+                animateDot(13.271541865089063, 52.50135516618644, walkSpeed);
+                turn++
+
+              } else if (turn == 1){
+                animateDot(13.271181772027774, 52.50151598732606, walkSpeed);
+                function addObstacle() {
+                  var marker = new Mazemap.MazeMarker({
+                    color:'Red',
+                    glyphSize: 25,
+                    glyph: '🙅‍♂️'
+                  })
+                  .setLngLat({lng: 13.271149988423105, lat: 52.501469976446515})
+                  .addTo(map);
+                }
+                window.setTimeout(addObstacle, 700);
+                turn++
+
+              } else if (turn == 2){
+                animateDot(13.271183905701122, 52.50156596933854, 500);
+                function addPerson() {
+                  var marker = new Mazemap.MazeMarker({
+                    color:'Green',
+                    glyphSize: 25,
+                    glyph: '😭'
+                  })
+                  .setLngLat({lng: 13.271442604393314, lat: 52.501553460874135})
+                  .addTo(map);
+                }
+                window.setTimeout(addPerson, 500);
+                turn++
+
+              } else if (turn == 3){
+                animateDot(13.271092007310784, 52.50164192642404, 500);
+                function addFire() {
+                  fire = new Mazemap.MazeMarker({
+                    color:'Red',
+                    glyphSize: 25,
+                    glyph: '🔥'
+                  })
+                  .setLngLat({lng: 13.27098327847844, lat: 52.50155657096889})
+                  .addTo(map);
+                }
+                window.setTimeout(addFire, 500);
+                turn++
+
+              } else if (turn == 4){
+                fire.remove()
+              }
+            }
+          })
+        })
     </script>
 </body>
