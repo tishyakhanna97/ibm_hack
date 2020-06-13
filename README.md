@@ -17,7 +17,7 @@ We at LiveIntel believe that the best way for us to support our firefighters is 
 
 ## Video
 
-StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
+[![Watch the video](https://github.com/Code-and-Response/Liquid-Prep/blob/master/images/IBM-interview-video-image.png)](https://youtu.be/vOgCOoy_Bx0)
 
 ## Architecture 
 
@@ -33,8 +33,7 @@ StackEdit stores your files in your browser, which means all your files are auto
 
 
 ## Long Description
-
-All your files and folders are presented as a tree in the file explorer. You can switch from one to another by clicking a file in the tree.
+[Read more here](https://www.nccs.gov.sg/singapores-climate-action/impact-of-climate-change-in-singapore/)
 
 ## Roadmap
 
