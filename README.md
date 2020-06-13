@@ -21,7 +21,8 @@ StackEdit stores your files in your browser, which means all your files are auto
 
 ## Architecture 
 
-image::.architecture/Slide1.jpeg
+![Architecture](https://github.com/tishyakhanna97/ibm_hack/blob/master/architecture/Slide1.jpeg)
+
  1. The sensors attached to the firefighters in the heat of battle transmit the relevant information (images, recorded speech, temperature and humidity readings) to the IBM Cloud server.
  
  2. Visual recognition on the images allows us to plot the highlighted areas on our blueprint using MazeMap
