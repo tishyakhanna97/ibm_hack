@@ -1,5 +1,5 @@
 # Welcome to LiveIntel!
-About us + challenge statement
+Problem Statement 2 -> Climate Change
 
 ## Short Description
 ### The uncomfortable truth
@@ -35,9 +35,6 @@ We at LiveIntel believe that the best way for us to support our firefighters is 
 ## Long Description
 [Read more here](https://github.com/tishyakhanna97/ibm_hack/blob/master/long.md)
 
-## Roadmap
-
-You can rename the current file by clicking the file name in the navigation bar or by clicking the **Rename** button in the file explorer.
 
 ## Getting started with our Live Demo
 
