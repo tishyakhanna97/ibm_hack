@@ -16,8 +16,7 @@ We at LiveIntel believe that the best way for us to support our firefighters is 
 
 
 ## Video
-
-[![Watch the video](https://www.youtube.com/watch?v=J-8h2B29Piw&feature=youtu.be)
+[Watch our video](https://www.youtube.com/watch?v=J-8h2B29Piw&feature=youtu.be)
 
 ## Architecture 
 
