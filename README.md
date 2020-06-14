@@ -77,5 +77,5 @@ We at LiveIntel believe that the best way for us to support our firefighters is 
  - Tang Lingxi (Leader) 
  - Vivek Tadikamalla
  - Dominic Let
- - Sim Shengqin
+ - Sim Sheng Qin
  - Tishya Khanna
