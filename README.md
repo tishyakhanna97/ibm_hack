@@ -17,7 +17,7 @@ We at LiveIntel believe that the best way for us to support our firefighters is 
 
 ## Video
 
-[![Watch the video](https://github.com/Code-and-Response/Liquid-Prep/blob/master/images/IBM-interview-video-image.png)](https://youtu.be/vOgCOoy_Bx0)
+[![Watch the video](https://www.youtube.com/watch?v=J-8h2B29Piw&feature=youtu.be)
 
 ## Architecture 
 
@@ -79,5 +79,5 @@ We at LiveIntel believe that the best way for us to support our firefighters is 
  - Dominic Let
  - Sim Sheng Qin
  - Tishya Khanna
- ![About us](https://github.com/tishyakhanna97/ibm_hack/blob/master/architecture/Slide1.jpeg)
+ ![About us](https://github.com/tishyakhanna97/ibm_hack/blob/master/architecture/aboutus.png)
 
