@@ -79,3 +79,5 @@ We at LiveIntel believe that the best way for us to support our firefighters is 
  - Dominic Let
  - Sim Sheng Qin
  - Tishya Khanna
+ ![About us](https://github.com/tishyakhanna97/ibm_hack/blob/master/architecture/Slide1.jpeg)
+
