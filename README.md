@@ -72,3 +72,10 @@ We at LiveIntel believe that the best way for us to support our firefighters is 
  - IBM’s Visual Recognition
  - IBM's Internet of Things Platform
  - [Mazemap](https://www.mazemap.com/)
+ 
+ ## Members
+ - Tang Lingxi (Leader) 
+ - Vivek Tadikamalla
+ - Dominic Let
+ - Sim Shengqin
+ - Tishya Khanna
